@@ -33,7 +33,7 @@ jobs:
 #         run: pwd
         
       - name: build vlc
-        run: cd build && pwd && chmod +x ../macos.sh &&  ../macos.sh prepare && ../extras/package/macosx/build.sh -r -c -a x86_64 -i n
+        run: cd build && pwd && ../extras/package/macosx/build.sh -r -c -a x86_64 -i n
       # Runs a set of commands using the runners shell
 #       - name: build script
 #         run: |
