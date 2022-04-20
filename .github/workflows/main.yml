@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: make build dir
-        run: mkdir build && brew install neofetch && neofetch && ls -l /usr/local/bin && /usr/local/bin/gcc-11 -v  && /usr/local/bin/g++-11 -v && lz4 --version && ls -l /usr/lib/jdk1.3.1/bin
+        run: mkdir build && brew install neofetch && neofetch && ls -l /usr/local/bin && /usr/local/bin/gcc-11 -v  && /usr/local/bin/g++-11 -v && lz4 --version
 
 #       - name: pwd
 #         run: pwd
